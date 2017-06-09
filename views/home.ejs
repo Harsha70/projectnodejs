@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="c3.css">
+</head>
+<body>
+<div class="title">
+	<h1 align="center">Amrita Social Network Register</h1>
+	
+</div>
+
+<div  class="form">
+<form method="get" action="/signupsubmit">
+  <div class="form-group">
+    <label for="Firstname">Name:</label>
+    <input type="text" class="form-control" id="Firstname" name="firstname" placeholder="EX:Harsha" required>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1"  name="email" placeholder="Email" required>
+  </div>
+  <div class="form-group">
+    <label for="Firstname">Username:</label>
+    <input type="text" class="form-control" id="Firstname" name="username" placeholder="EX:Harsha" required>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" name="pwd" placeholder="Password" required>
+  </div>
+  
+  <button type="submit" class="btn btn-primary btn-lg btn-block login-button">Register</button>
+  <h6 align="center">Already a user</h6> 
+
+</form>
+<a href="/login"><button type="submit" class="btn btn-primary btn-lg btn-block login-button">login</button></a>
+</div>
+</body>
+</html>

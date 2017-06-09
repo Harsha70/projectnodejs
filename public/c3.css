@@ -1,0 +1,56 @@
+body{
+	background-color: grey;
+}
+h1{
+	padding:30px 10px 30px 10px;
+	font-family: cursive; 
+}
+div.form{
+	border-color: black;
+	border-style: solid;
+	background-color:papayawhip;
+	margin: 10px 10px 10px 482px ;
+	padding: 58px 40px;
+	height: 505px;
+	max-width: 350px;
+}
+.btn-block{
+	    margin: 10px 21px 10px 0px;
+
+}
+a{
+	text-decoration: none;
+}
+
+.navbar{
+padding: 15px;
+background-color: black;
+}
+
+.b{
+	background-color: white;
+	height: 10px;
+}
+
+.col-md-3{
+	background-color: grey;
+	margin: 0px -23px 19px 60px;
+	padding: 18px 30px 18px 54px;
+	width: 289px;
+    height: 307px;
+}
+img {
+    border: 0;
+    max-width: 181px;
+}
+.btn-xs{
+	font-size: 14px;
+}
+li{
+	list-style-type: none;
+}
+
+
+
+
+
