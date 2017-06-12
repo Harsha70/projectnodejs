@@ -20,14 +20,14 @@ app.get('/login',function(req,res){
 	res.render('signup')
 })
 
-app.get('/personal/:name',function(req,res){
+app.get('/personal/:username',function(req,res){
 	/*db.find({'email':req.query.email,'password':req.query.pwd},function(err,result){
 		if(resu1t.length>0){			
 				res.render('personal',{result:result})
 			}
 	})*/
 	var a=req.params.username
-	db.find({username:a},function(err,result){
+	db.find({'username':a},function(err,result){
 		console.log(result);
 		if(result.length!=0){
 			res.render('personal',{result:result})

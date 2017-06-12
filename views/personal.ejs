@@ -6,24 +6,28 @@
 <link rel="stylesheet" type="text/css" href="c3.css">
 </head>
 <body style="background-color: white">
-<nav class="navbar navbar-default navbar-fixed-top">
+<nav class="navbar navbar-default navbar-fixed-top a">
   <div class="container">
     <div class="row">
-    	<div class="col-md-10">
-    		<a href="">Amrita School Network</a>
-    	</div>
-    	
-    	<div class="col-md-2">
-    		<a href="/personal">myprofile</a>
+    	<div class="col-md-10" style="background-color: black;padding: 17px; " >
+    		<a href="" style="
+    color: aliceblue;
+    text-decoration: blink;
+    margin: 30px;
+">Amrita School Network</a>
     	</div>
     </div>
     
   </div>
 </nav>
-
-<img src="http://dhiglobal.com/wp-content/uploads/2016/07/placeholder.jpg"><br>
-	<b>Name:<%=result[i].name%></b>
-	<li><%=result[i].email%></li>
-	<li>user:<%=result[i].username%></li>
+<div class="p" style="
+    margin: 15px;">
+<% for(var i=0;i<result.length;i++){%>
+<img src="http://dhiglobal.com/wp-content/uploads/2016/07/placeholder.jpg" height="200px" width="200px"><br>
+	<b>Name:<%=JSON.stringify(result[i].name)%></b>
+	<li><%=JSON.stringify(result[i].email)%></li>
+	<li>user:<%=JSON.stringify(result[i].username)%></li>
+<%}%>
+</div>	
 </body>
 </html>

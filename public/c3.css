@@ -18,8 +18,11 @@ div.form{
 	    margin: 10px 21px 10px 0px;
 
 }
-a{
+.a{
 	text-decoration: none;
+    color: aliceblue;
+    margin: 58px 19px 43px 41px;
+	
 }
 
 .navbar{
